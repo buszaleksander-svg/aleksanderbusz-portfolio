@@ -288,6 +288,23 @@
       font-size: 12px;
     }
 
+    .project-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 18px;
+      margin-top: 14px;
+      font-size: 13px;
+      font-weight: 750;
+    }
+
+    .project-links a {
+      color: #587a31;
+    }
+
+    .project-links a:hover {
+      text-decoration: underline;
+    }
+
     .about {
       background: #edf1e9;
     }
@@ -496,6 +513,8 @@
       <a href="#about">About</a>
       <a href="#skills">Skills</a>
       <a href="#contact">Contact</a>
+      <a href="https://www.linkedin.com/in/aleksanderbuszfabritius/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+      <a href="https://github.com/buszaleksander-svg" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
     </nav>
   </header>
 
@@ -509,14 +528,15 @@
       </h1>
 
       <p class="intro">
-        I build mobile apps across iOS, Android and React Native,
-        combining hands-on development with a practical understanding
-        of the people and problems behind each product.
+        Mobile developer working across iOS, Android and React Native. I bring together hands-on app development, professional experience in digital health, and a business perspective shaped by years of building and running real businesses.
       </p>
 
       <div class="actions">
         <a class="button" href="#projects">Explore my work ↘</a>
         <a class="text-link" href="#contact">Get in touch ↗</a>
+        <a class="text-link" href="CV_Aleksander_Busz_Fabritius.pdf" target="_blank" rel="noopener noreferrer" download>Download CV ↓</a>
+        <a class="text-link" href="https://www.linkedin.com/in/aleksanderbuszfabritius/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+        <a class="text-link" href="https://github.com/buszaleksander-svg" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
       </div>
     </section>
 
@@ -568,11 +588,13 @@
             <span>Hospitality</span>
           </div>
           <p class="project-note">
-            Built with React Native and Expo, Stafflyx brings this experience to iOS,
-            Android and the web. I combine hands-on product development with
-            practical industry knowledge to turn a real operational challenge
-            into a digital solution.
+            Developed with React Native, Expo, TypeScript and Supabase, including authentication, database integration and core workflows for workers and hotels.
           </p>
+          <div class="project-links">
+            <a class="text-link" href="https://stafflyx.eu/" target="_blank" rel="noopener noreferrer">Visit Stafflyx website ↗</a>
+            <a class="text-link" href="https://peaceful-kitten-42d657.netlify.app/auth?utm_source=chatgpt.com" target="_blank" rel="noopener noreferrer">Open web demo ↗</a>
+            <a class="text-link" href="https://github.com/buszaleksander-svg" target="_blank" rel="noopener noreferrer">GitHub profile ↗</a>
+          </div>
         </div>
       </article>
 
@@ -592,10 +614,7 @@
           <span class="project-number">02 / MOBILE APPLICATION</span>
           <h3>MassageTime</h3>
           <p>
-            Inspired by my own experience as a massage therapist, MassageTime
-            grew from a real need to manage clients and appointments more
-            efficiently. I turned that everyday challenge into a mobile app,
-            with native iOS, native Android and React Native implementations.
+            Inspired by my own experience running a massage studio, MassageTime grew from a practical need to manage clients and appointments. The Android version, built with Kotlin and Jetpack Compose, is the main implementation, alongside iOS (SwiftUI) and an additional React Native version.
           </p>
           <div class="tags">
             <span>iOS</span>
@@ -606,8 +625,11 @@
             <span>Expo</span>
           </div>
           <p class="project-note">
-            A practical product idea shaped by first-hand experience in the massage profession.
+            A real-world product shaped by the daily needs of a massage business.
           </p>
+          <div class="project-links">
+            <a class="text-link" href="https://apps.apple.com/app/massagetime/id6758397393" target="_blank" rel="noopener noreferrer">View on App Store ↗</a>
+          </div>
         </div>
       </article>
 
@@ -627,17 +649,18 @@
           <span class="project-number">03 / MOBILE APPLICATION</span>
           <h3>Daily Inspiration</h3>
           <p>
-            An iOS project focused on daily inspiration and a simple,
-            accessible mobile experience.
+            A team-developed SwiftUI app for iPad, designed to make inspirational content part of a simple daily routine.
           </p>
           <div class="tags">
             <span>iOS</span>
             <span>SwiftUI</span>
           </div>
           <p class="project-note">
-            A team project focused on a clear iOS experience, with features including
-            local reminders, saved favourites and English/Swedish localisation.
+            As team lead, I helped establish the initial app structure and contributed to the inspirational content and English/Swedish localisation.
           </p>
+          <div class="project-links">
+            <a class="text-link" href="https://apps.apple.com/us/app/daily-inspiration-pia14/id6758944044" target="_blank" rel="noopener noreferrer">View on App Store ↗</a>
+          </div>
         </div>
       </article>
 
@@ -654,23 +677,17 @@
           <span class="project-number">04 / LiA INTERNSHIP</span>
           <h3>MedBeat</h3>
           <p>
-            During my LiA internship at MedBeat Sweden AB, I worked on existing
-            production mobile apps in digital healthcare for iOS and Android.
-            My work included implementing features, improving localisation,
-            fixing production bugs, and contributing through Git, pull requests
-            and code review. I also carried out a US Pre-Study, analysing user
-            workflows, authentication and activation flows, security considerations
-            including HIPAA-related requirements, and technical options for a
-            US version of the product.
+            During my ongoing LiA internship at MedBeat Sweden AB, I contribute to an existing digital health product for iOS and Android. My implemented work includes backend-related functionality, a new login and authentication flow, and improvements to date and time handling, including UTC conversion and timezone behaviour. I work with SwiftUI, Kotlin, Jetpack Compose and AWS Amplify, using Git, pull requests, testing and code review.
           </p>
           <div class="tags">
-            <span>LiA Internship</span>
-            <span>Mobile Development</span>
-            <span>Digital Health</span>
+            <span>SwiftUI</span>
+            <span>Kotlin</span>
+            <span>Jetpack Compose</span>
+            <span>AWS Amplify</span>
+            <span>Git · Pull Requests · Code Review</span>
           </div>
           <p class="project-note">
-            The US Pre-Study explored product, workflow, security and technical considerations
-            for a potential US version of the product.
+            Separately, I contribute to a US Pre-Study covering user workflows, authentication and activation, architecture, security and HIPAA-related requirements.
           </p>
         </div>
       </article>
@@ -687,17 +704,13 @@
 
         <div>
           <p>
-            I am a mobile developer studying iOS and Android development
-            in Malmö, Sweden.
+            My professional background spans financial services, hospitality, entrepreneurship and software development. Earlier in my career, I worked at Santander Bank Polska, developing experience in client analysis, risk assessment and working with sensitive information.
           </p>
           <p>
-            I enjoy building practical applications, exploring native and
-            cross-platform technologies, and turning ideas into useful
-            digital products.
+            I later built and managed businesses in hospitality and wellness. Running a massage studio gave me first-hand insight into customer needs and inspired MassageTime. That business perspective now shapes how I approach software: start with a real problem and build something practical.
           </p>
           <p>
-            My projects range from booking and client management to
-            hospitality products and mobile development in digital health.
+            Today, I develop mobile products across iOS, Android and React Native while completing my mobile development studies in Malmö and gaining professional experience in digital health at MedBeat. I am open to opportunities in mobile development and broader software engineering, where I can contribute and continue growing.
           </p>
         </div>
       </div>
@@ -720,6 +733,20 @@
         <span>TypeScript</span>
         <span>Git</span>
         <span>REST APIs</span>
+        <span>Supabase</span>
+        <span>PostgreSQL</span>
+        <span>AWS Amplify</span>
+        <span>SQL</span>
+        <span>Python</span>
+        <span>GitHub</span>
+        <span>Code Review</span>
+        <span>Pull Requests</span>
+      </div>
+      <p class="section-description" style="margin-top: 36px; margin-bottom: 12px;">Certifications</p>
+      <div class="tags">
+        <span>Microsoft SC-900 · Security, Compliance & Identity Fundamentals</span>
+        <span>Cybersecurity Advanced · ReDI School Copenhagen</span>
+        <span>Certified Data Scientist · Future Collars</span>
       </div>
     </section>
 
@@ -729,6 +756,11 @@
         <h2>Let's build something <span>useful.</span></h2>
         <p>Mobile development · Product-focused thinking · Malmö, Sweden</p>
         <a class="button" href="mailto:aleksander.busz@op.pl">Email me ↗</a>
+        <div class="project-links" style="margin-top: 24px;">
+          <a href="https://www.linkedin.com/in/aleksanderbuszfabritius/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+          <a href="https://github.com/buszaleksander-svg" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          <a href="CV_Aleksander_Busz_Fabritius.pdf" target="_blank" rel="noopener noreferrer" download>Download CV ↓</a>
+        </div>
       </div>
     </section>
   </main>
