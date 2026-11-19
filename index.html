@@ -288,6 +288,30 @@
       font-size: 12px;
     }
 
+    .letter-link {
+      margin: 22px 0 18px;
+    }
+    .letter-link a {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 11px 15px;
+      border: 1px solid #dce4dc;
+      border-radius: 9px;
+      background: #f4f7f2;
+      color: #26332c;
+      font-size: 13px;
+      font-weight: 700;
+      text-decoration: none;
+      transition: background .2s ease, border-color .2s ease,
+                  transform .2s ease;
+    }
+    .letter-link a:hover {
+      background: #eaf0e8;
+      border-color: #c8d4c8;
+      transform: translateY(-1px);
+    }
+
     .project-links {
       display: flex;
       flex-wrap: wrap;
@@ -296,13 +320,12 @@
       font-size: 13px;
       font-weight: 750;
     }
-
     .project-links a {
       color: #587a31;
     }
-
     .project-links a:hover {
       text-decoration: underline;
+    }
     }
 
     .about {
@@ -686,6 +709,13 @@
             <span>AWS Amplify</span>
             <span>Git · Pull Requests · Code Review</span>
           </div>
+          <p class="letter-link">
+    <a href="documents/medbeat-letter-of-recommendation.pdf"
+       target="_blank"
+       rel="noopener noreferrer">
+       📄 Letter of Recommendation – MedBeat
+    </a>
+</p>
           <p class="project-note">
             Separately, I contribute to a US Pre-Study covering user workflows, authentication and activation, architecture, security and HIPAA-related requirements.
           </p>
