@@ -288,6 +288,32 @@
       font-size: 12px;
     }
 
+    .letter-link {
+      margin: 22px 0 18px;
+    }
+
+    .letter-link a {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 11px 15px;
+      border: 1px solid #dce4dc;
+      border-radius: 9px;
+      background: #f4f7f2;
+      color: #26332c;
+      font-size: 13px;
+      font-weight: 700;
+      text-decoration: none;
+      transition: background .2s ease, border-color .2s ease,
+                  transform .2s ease;
+    }
+
+    .letter-link a:hover {
+      background: #eaf0e8;
+      border-color: #c8d4c8;
+      transform: translateY(-1px);
+    }
+
     .about {
       background: #edf1e9;
     }
@@ -668,6 +694,13 @@
             <span>Mobile Development</span>
             <span>Digital Health</span>
           </div>
+          <p class="letter-link">
+    <a href="documents/medbeat-letter-of-recommendation.pdf"
+       target="_blank"
+       rel="noopener noreferrer">
+       📄 Letter of Recommendation – MedBeat
+    </a>
+</p>
           <p class="project-note">
             The US Pre-Study explored product, workflow, security and technical considerations
             for a potential US version of the product.
